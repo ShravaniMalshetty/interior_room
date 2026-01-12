@@ -11,12 +11,8 @@ const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "ai-room-redesign-9d5b4.firebaseapp.com",
   projectId: "ai-room-redesign-9d5b4",
-  storageBucket: "gs://ai-room-redesign-9d5b4.firebasestorage.app",
+  storageBucket: "ai-room-redesign-9d5b4.appspot.com",
   messagingSenderId: "849267426375",
   appId: "1:849267426375:web:5b1c6a19975b091c179d62",
   measurementId: "G-CG32GK2M3N"
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const storage=getStorage(app)
